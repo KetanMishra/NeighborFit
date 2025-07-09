@@ -1,0 +1,82 @@
+[
+  {
+    "id": "hsr-layout",
+    "name": "HSR Layout",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "coordinates": { "lat": 12.9116, "lng": 77.6412 },
+    "demographics": {
+      "population": 150000,
+      "medianAge": 32,
+      "medianIncome": 1200000,
+      "educationLevel": "Graduate Degree",
+      "diversity": 85
+    },
+    "housing": {
+      "medianPrice": 8500000,
+      "rentPrice": 35000,
+      "housingTypes": ["Apartment", "Villa", "Independent House"],
+      "availableUnits": 450
+    },
+    "amenities": {
+      "walkScore": 78,
+      "transitScore": 85,
+      "bikeScore": 70,
+      "restaurants": 180,
+      "nightlife": 35,
+      "shopping": 65,
+      "parks": 15,
+      "gyms": 28,
+      "schools": 25
+    },
+    "safety": {
+      "crimeRate": 12,
+      "safetyScore": 88
+    },
+    "quality": {
+      "airQuality": 65,
+      "noiseLevel": 70,
+      "greenSpace": 40
+    }
+  },
+  {
+    "id": "koramangala",
+    "name": "Koramangala",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "coordinates": { "lat": 12.9352, "lng": 77.6245 },
+    "demographics": {
+      "population": 120000,
+      "medianAge": 28,
+      "medianIncome": 1500000,
+      "educationLevel": "Graduate Degree",
+      "diversity": 90
+    },
+    "housing": {
+      "medianPrice": 12000000,
+      "rentPrice": 45000,
+      "housingTypes": ["Apartment", "PG", "Studio"],
+      "availableUnits": 320
+    },
+    "amenities": {
+      "walkScore": 92,
+      "transitScore": 88,
+      "bikeScore": 85,
+      "restaurants": 250,
+      "nightlife": 65,
+      "shopping": 85,
+      "parks": 8,
+      "gyms": 35,
+      "schools": 18
+    },
+    "safety": {
+      "crimeRate": 18,
+      "safetyScore": 82
+    },
+    "quality": {
+      "airQuality": 60,
+      "noiseLevel": 85,
+      "greenSpace": 25
+    }
+  }
+] 
