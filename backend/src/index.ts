@@ -12,7 +12,13 @@ const app = express();
 const PORT = process.env.PORT || 4000;
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/neighborfit';
 
-app.use(cors());
+app.use(cors({
+  origin: [
+    'http://localhost:5173',
+    'https://neighbor-c4s1vkk5j-ketanmishras-projects.vercel.app'
+  ],
+  credentials: true
+}));
 app.use(express.json());
 app.use('/api/auth', authRouter);
 app.use('/api/neighborhoods', neighborhoodsRouter);
