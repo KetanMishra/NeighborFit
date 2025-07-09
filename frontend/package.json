@@ -32,7 +32,8 @@
     "format:check": "prettier --check .",
     "analyze": "npx vite-bundle-analyzer dist",
     "clean": "rm -rf dist node_modules/.vite",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "postinstall": "husky install || true"
   },
   "dependencies": {
     "lucide-react": "^0.344.0",
