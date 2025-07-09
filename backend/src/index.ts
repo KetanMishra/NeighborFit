@@ -15,7 +15,7 @@ const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/neighb
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://neighbor-c4s1vkk5j-ketanmishras-projects.vercel.app'
+    'https://neighbor-fit-sandy.vercel.app'
   ],
   credentials: true
 }));
