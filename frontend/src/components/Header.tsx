@@ -12,21 +12,9 @@ export const Header: React.FC = () => {
     // Try to use useNavigate if react-router-dom is available
     navigate = require('react-router-dom').useNavigate();
   } catch {}
-  const [showLoginModal, setShowLoginModal] = useState(false);
-  const [showSignupModal, setShowSignupModal] = useState(false);
   const [showAboutModal, setShowAboutModal] = useState(false);
   const [showContactModal, setShowContactModal] = useState(false);
   const { isAuthenticated } = useAuth();
-
-  const handleSwitchToSignup = () => {
-    setShowLoginModal(false);
-    setShowSignupModal(true);
-  };
-
-  const handleSwitchToLogin = () => {
-    setShowSignupModal(false);
-    setShowLoginModal(true);
-  };
 
   // Smooth scroll to section by id
   const scrollToSection = (id: string) => {
