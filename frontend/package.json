@@ -32,7 +32,7 @@
     "format:check": "prettier --check .",
     "analyze": "npx vite-bundle-analyzer dist",
     "clean": "rm -rf dist node_modules/.vite",
-    "prepare": "husky install",
+    "prepare": "husky install || true",
     "postinstall": "husky install || true"
   },
   "dependencies": {
